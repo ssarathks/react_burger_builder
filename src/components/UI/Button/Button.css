@@ -1,0 +1,17 @@
+.Button{
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Button:disabled{
+    cursor: not-allowed;
+    color: grey;
+}
+.Danger{
+    color: red;
+}
+.Success{
+    color: green;
+}

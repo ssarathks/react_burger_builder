@@ -1,0 +1,19 @@
+.BuildControls{
+    background-color: rgb(206, 129, 42);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.BuildControls .OrderButton{
+    padding: 10px 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(92, 218, 92);
+}
+.BuildControls .OrderButton:hover{
+    background-color: rgb(124, 245, 124);
+}
+.BuildControls .OrderButton:hover:disabled{
+    background-color: rgb(140, 156, 140);
+    cursor: not-allowed;
+}
